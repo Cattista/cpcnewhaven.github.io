@@ -18,11 +18,11 @@ const headerTemplate = document.createElement('template');
 
 headerTemplate.innerHTML = `
 <header>
-    <img src="assets/CPC LOGO.png" alt="Logo" class="home-logo">
+    <a href="index.html"><img src="assets/CPC LOGO.png" alt="Logo" class="home-logo"></a>
 </header>
 `;
 
-document.body.appendChild(headerTemplate.content);
+//document.body.appendChild(headerTemplate.content);
 
 
 // Footer Construction
@@ -49,4 +49,4 @@ footerTemplate.innerHTML = `
 </footer>
 `;
 
-document.body.appendChild(footerTemplate.content);
+//document.body.appendChild(footerTemplate.content);

@@ -9,6 +9,11 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.home{
+    background-image: url(../assets/CPC\ 3\ BG.jpg);
+}
+
 h1 {
     padding: 20px;
     text-align: center;
@@ -86,7 +91,7 @@ header {
     flex-wrap: wrap;
     justify-content: center;
   }
-  
+/*  
 .button {
     display: flex;
     align-items: center;
@@ -109,7 +114,7 @@ header {
   
   .button:hover {
     background-color: #4567aa;
-  }
+  }*/
 
   .live-button {
     display: block;
@@ -157,10 +162,9 @@ header {
 .column-4 {
     flex: 25%;
 }
-
-
-
-/* ... existing CSS ... */
+.flex80 {
+    flex:80%;
+}
 
 /* Bottom Footer Controls */
 #footer-controls {
