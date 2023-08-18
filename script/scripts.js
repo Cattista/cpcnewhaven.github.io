@@ -11,10 +11,22 @@ function modifiedTitle(pageName = document.title) {
 
     document.title = pageName + "CPC NEW HAVEN | as of " + updateMonth + "." + updateDay + "." + updateYear;
 }
+modifiedTitle();
+
+// Header Construction
+const headerTemplate = document.createElement('template');
+
+headerTemplate.innerHTML = `
+<header>
+    <img src="assets/CPC LOGO.png" alt="Logo" class="home-logo">
+</header>
+`;
+
+document.body.appendChild(headerTemplate.content);
 
 
 // Footer Construction
-const footerTemplate = document.createElement('footer');
+const footerTemplate = document.createElement('template');
 
 footerTemplate.innerHTML = `
 <footer class="full-footer">
@@ -37,5 +49,4 @@ footerTemplate.innerHTML = `
 </footer>
 `;
 
-window.alert(footerTemplate.innerHTML);
-document.body.appendChild(footerTemplate.innerHTML);
+document.body.appendChild(footerTemplate.content);
