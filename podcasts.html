@@ -3,14 +3,14 @@
 <head>
     <title>Podcast Episodes</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/podcasts.css">
-    <link rel="stylesheet" href="../css/episodes.css">
-    <link rel="stylesheet" href="../css/episodeLayout.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/podcasts.css">
+    <link rel="stylesheet" href="css/episodes.css">
+    <link rel="stylesheet" href="css/episodeLayout.css">
 </head>
 <body>
     <header>
-    <a href="../index.html"><img src="../assets/CPC LOGO.png" alt="Logo" class="home-logo"></a>
+    <a href="index.html"><img src="assets/CPC LOGO.png" alt="Logo" class="home-logo"></a>
     </header>
     <h1>Podcast Episodes</h1>
     <div class="filter-container neumorphic">
@@ -102,7 +102,7 @@
         <!-- Podcast episodes will be dynamically added here -->
     </div>
 
-    <script src="../script/podcastFilter.js"></script>
+    <script src="script/podcastFilter.js"></script>
     <script>
         // Event listeners for the filter inputs
         podcastFilter.addEventListener("change", applyFilters);
@@ -112,7 +112,7 @@
         monthFilter.addEventListener("change",applyFilters);
 
         // Fetch and display podcast episodes when the page loads
-        fetchPodcastEpisodes("https://beta.cpcnewhaven.org/podcasts/podcasts.json");
+        fetchPodcastEpisodes("https://beta.cpcnewhaven.org/podcasts.json");
     </script>
 
 </body>
