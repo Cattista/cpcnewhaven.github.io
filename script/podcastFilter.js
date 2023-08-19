@@ -75,7 +75,7 @@ function fetchPodcastEpisodes(jsonData) {
 					episodeElement.innerHTML = `
 						<div class="episode">
 							<img class="episodeArtwork" src="${episode.Artwork}">
-							<span class="podcastName"${episode.Podcast}</span>
+							<span class="podcastName">${episode.Podcast}</span>
 							<span class="showName">${episode.Show}</span>: 
 							<span class="seriesName">${episode.Series}</span>
 							<span class="episodeNumber">${EP}</span>
